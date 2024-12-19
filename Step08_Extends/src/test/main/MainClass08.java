@@ -13,7 +13,7 @@ public class MainClass08 {
 		
 		// 미리 생성된 객체의 참조값을 참조해서 전달
 		Phone p1 = new Phone();
-		MainClass08.usePhone(p1);
+		usePhone(p1);
 		
 		usePhone(new AndroidPhone()); // Phone p = new AndroidPhone(); 이 ()안에 들어간 것이다.
 	}

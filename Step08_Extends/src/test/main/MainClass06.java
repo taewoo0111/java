@@ -2,6 +2,8 @@ package test.main;
 
 import test.auto.Car;
 import test.auto.Engine;
+import test.auto.SportsCar;
+import test.auto2.MyCar;
 
 public class MainClass06 {
 	public static void main(String[] args) {
@@ -9,5 +11,10 @@ public class MainClass06 {
 		Car car1 = new Car(new Engine());
 		
 		car1.drive();
+		
+		MyCar car2 = new MyCar(new Engine());
+		car2.myDrive();
+		
+		SportsCar car3 = new SportsCar(new Engine());
 	}
 }
