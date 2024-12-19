@@ -1,0 +1,16 @@
+package test.main;
+
+import test.mypac.HandPhone;
+import test.mypac.Phone;
+
+public class MainClass04 {
+	public static void main(String[] args) {
+		
+		// HandPhone 객체를 만들어서 Object type 인 p3의 지역변수에 담기
+		Object p3 = new HandPhone();
+		// casting 을 사용해서 p3의 참조값을 Phone type 인 지역변수 p2에 담기
+		Phone p2 = (Phone)p3;
+		// casting 을 사용해서 p3의 참조값을 HandPhone type 인 지역변수 p1에 담기
+		HandPhone p1 = (HandPhone)p3;
+	}
+}
