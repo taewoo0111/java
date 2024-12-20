@@ -582,3 +582,6 @@ Please select items from only one repository.
 	at org.eclipse.compare.internal.CompareUIPlugin.prepareInput(CompareUIPlugin.java:601)
 	at org.eclipse.compare.internal.CompareEditor$1.run(CompareEditor.java:338)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-20 15:55:54.125
+!MESSAGE close() called when useCnt is already zero for Repository[/Users/ktw2000111/git/java/.git]
