@@ -1,0 +1,19 @@
+package test.auto;
+
+public class SportsCar extends Car{
+
+	public SportsCar(Engine engine) {
+		// 이 줄 사이에는 다른 코딩은 안됨!!!! 최우선적으로 private engine 을 전달해줘야 한다!!!!!
+		
+		super(engine); // 부모 생성자인 Car 에 자기가 받은 engine 을 전달! 
+					  // 자식에서 부모 생성자로 보내는 방법 super 사용 (this)와 같은 역할!!!!
+	}
+	
+	public void  openDrive() {
+		if (this.engine == null) {
+			System.out.println("Engine 이 없어서 달릴 수가 없어요!");
+			return;
+		}
+		System.out.println("뚜껑을 열고 달려요!!!!");
+	}
+}

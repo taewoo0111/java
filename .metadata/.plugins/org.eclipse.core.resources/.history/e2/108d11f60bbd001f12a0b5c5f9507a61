@@ -1,0 +1,38 @@
+package test.main;
+
+import test.mypac.AndroidPhone;
+import test.mypac.HandPhone;
+import test.mypac.IosPhone;
+import test.mypac.Phone;
+
+public class MainClass05 {
+	public static void main(String[] args) {
+		
+		AndroidPhone p1 = new AndroidPhone();
+		p1.call();
+		p1.mobileCall();
+		p1.takePictures();
+		p1.doInternet();
+		
+		System.out.println("--------------");
+		
+		HandPhone p2 = new AndroidPhone();
+		p2.takePictures();
+		
+		System.out.println("--------------");
+		
+		HandPhone p3 = new HandPhone();
+		p3.takePictures();
+		
+		System.out.println("--------------");
+		
+		IosPhone p4 = new IosPhone();
+		p4.Siri();
+		
+		System.out.println("--------------");
+		
+		HandPhone p5 = new IosPhone();
+		p5.Siri();
+		
+	}
+}

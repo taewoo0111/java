@@ -1,0 +1,29 @@
+package test.main;
+
+import test.mypac.Calc;
+
+public class MainClass05 {
+	public static void main(String[] args) {
+		Calc c1 = new Calc() {
+			
+			@Override
+			public double execute(double num1, double num2) {
+				return 0;
+			}
+		};
+		
+		Calc c2 = (double a, double b)->{
+			return 0;
+		};
+		
+		// 매개 변수의 type 생략 가능
+		Calc c3 = (a, b)->{
+			//	return 예약어 이전에 coding 한 내용이 없다. 
+			return 0;
+		};
+		
+		// return 예약어 이전에 coding 한 내용이 없으면 {} 생략 가능!
+		Calc c4 = (a, b)-> 0;
+		
+	}
+}

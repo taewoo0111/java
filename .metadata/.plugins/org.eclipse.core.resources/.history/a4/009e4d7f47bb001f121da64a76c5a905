@@ -1,0 +1,18 @@
+package test.main;
+
+import test.mypac.Car;
+
+public class MainClass04 {
+	public static void main(String[] args) {
+		// Car 객체를 생성해서 참조값 얻어내기
+		Car car1 = new Car();
+		car1.name = "쏘나타";
+		
+		Car car2 = new Car();
+		car2.name = "그렌져";
+		// 참조값에 . 찍어서 메소드 호출! stack, heap 영역, 지역변수 : 객체  각각 만들어짐
+		car1.drive();
+		car2.drive();
+		
+	}
+}

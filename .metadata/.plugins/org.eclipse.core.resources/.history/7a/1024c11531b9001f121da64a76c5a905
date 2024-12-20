@@ -1,0 +1,9 @@
+package test.main;
+
+import test.mypac.MyUtil2;
+
+public class MainClass08_02 {
+	public static void main(String[] args) {
+		MyUtil2 information = new MyUtil2();
+	}
+}

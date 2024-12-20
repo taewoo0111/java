@@ -1,0 +1,18 @@
+package test.main;
+
+import java.io.PrintStream;
+
+public class MainClass08 {
+	// static 필드
+	public static String myName = "김태우";
+	
+	public static void main(String[] args) {
+		// System 클래스의 out 이라는 static 필드에는 콘솔창에 출력하는 기능을 가지고 있는  
+		// PrintStream type 의 참조값이 있다.
+		PrintStream a = System.out;
+		a.println("오잉?");
+		
+		System.out.println(myName);
+		System.out.println(MainClass08.myName);
+	}
+}

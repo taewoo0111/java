@@ -1,0 +1,25 @@
+package test.main;
+
+import test.mypac.Calc;
+
+public class MainClass05 {
+	public static void main(String[] args) {
+		Calc c1 = new Calc() {
+			
+			@Override
+			public double execute(double num1, double num2) {
+				return 0;
+			}
+		};
+		
+		Calc c2 = (double a, double b)->{
+			return 0;
+		};
+		
+		// 매개변수의 type 생략 가능
+		Calc c3 = (a, b)->{
+			return 0;
+		};
+		
+	}
+}

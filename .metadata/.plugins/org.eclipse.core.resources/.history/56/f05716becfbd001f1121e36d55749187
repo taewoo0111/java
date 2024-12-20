@@ -1,0 +1,21 @@
+package test.main;
+
+import test.mypac.Weapon;
+
+public class MainClass05 {
+	public static void main(String[] args) {
+		Weapon w1 = new Weapon() {
+
+			@Override
+			public void attack() {
+				System.out.println("몰라 아무데나 공격해~");
+			}
+			
+		};
+	}
+	
+	public void useWeapon(Weapon w) {
+		w.prepare();
+		w.attack();
+	}
+}

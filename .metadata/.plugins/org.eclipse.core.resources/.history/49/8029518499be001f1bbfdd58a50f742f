@@ -1,0 +1,14 @@
+package test.mypac;
+
+public class FruitBox<T> { // <T> = 포괄클래스(Generic class)
+	
+	private T item;
+	
+	public void pack(T item) {
+		this.item = item;
+	}
+	
+	public T unpack() {
+		return item;
+	}
+}

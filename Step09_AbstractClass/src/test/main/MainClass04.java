@@ -19,7 +19,10 @@ public class MainClass04 {
 		
 		MainClass04.useWeapon(w1);
 		
+<<<<<<< HEAD
 		// 지역 내부 클래스
+=======
+>>>>>>> 2f983f3 (a)
 		class SpaceWeapon extends Weapon{
 			@Override
 			public void attack() {

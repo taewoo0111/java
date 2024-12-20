@@ -1,0 +1,18 @@
+package test.main;
+
+import test.mypac.HandPhone;
+import test.mypac.Phone;
+
+/*
+ *  다형성
+ *  
+ * 	java 에서 객체는 여러 개의 type 을 가질 수 있다.
+ */
+public class MainClass02 {
+	public static void main(String[] args) {
+		
+		HandPhone p1 = new HandPhone();
+		
+		Phone p2 = new HandPhone();
+	}
+}

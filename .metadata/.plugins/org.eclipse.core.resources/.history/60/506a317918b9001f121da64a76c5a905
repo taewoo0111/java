@@ -1,0 +1,23 @@
+package test.mypac;
+/*
+ *  class 역할
+ *  
+ *  1. 객체의 설계도 역할
+ *  -- 객체는 heap 영역(사물함)에 들어 있는 물건
+ *  -- class 를 이용해서 객체를 원하는 시점에 원하는 개수만큼 만들어 낼 수 있다.
+ *  -- 만들어진 객체가 어떤 저장소와 어떤 기능을 가지게 할 지 class 로 설계할 수 있다.
+ *  
+ *  2. data type 역할
+ *  
+ *  3. static 필드와 메소드를 포함하는 역할
+ */
+public class Car { //public 은 접근 지정자!!!!!!
+	// 데이터의 저장소(field)
+	public String name; // 선언만 하고 값을 넣지 않으면 객체 생성 시 null 로 초기화
+	public int price; // 선언만 하고 값을 넣지 않으면 객체 생성 시 0으로 초기화 
+
+	// 기능(method)
+	public void drive() {
+		System.out.println(name + "달려요!");
+	}
+}

@@ -1,0 +1,12 @@
+package test.mypac;
+
+public class AndroidPhone extends HandPhone{
+	
+	public AndroidPhone () {
+		System.out.println("AndroidPhone 생성자 호출됨");
+	}
+	
+	public void doInternet() {
+		System.out.println("인터넷을 해요!");
+	}
+}

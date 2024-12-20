@@ -1,0 +1,17 @@
+package test.mypac;
+
+public class MyRemocon implements Remocon{ // 인터페이스는 implements 해야한다.
+
+	@Override
+	public void up() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void down() {
+		// TODO Auto-generated method stub
+		
+	} 
+
+}
