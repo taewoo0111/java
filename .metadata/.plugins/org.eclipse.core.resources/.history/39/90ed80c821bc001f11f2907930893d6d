@@ -1,0 +1,9 @@
+package test.main;
+
+import test.mypac.Computer;
+
+public class MainClass07 {
+	public static void main(String[] args) {
+		Computer com1 = new Computer(Cpu(c1),Memory(m1),Ssd(s1));
+	}
+}

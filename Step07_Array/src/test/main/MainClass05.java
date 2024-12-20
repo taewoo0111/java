@@ -1,0 +1,24 @@
+package test.main;
+
+import test.mypac.Bike;
+
+public class MainClass05 {
+	public static void main(String[] args) {
+		
+		Bike[] bikes = new Bike[3];
+		
+		for(int i=0; i<bikes.length; i++) {
+			bikes[i] = new Bike();
+		}
+		
+		for(int i=0; i<bikes.length; i++) {
+			Bike tmp = bikes[i];
+			tmp.ride();
+		}
+		System.out.println();
+		
+		for(Bike tmp:bikes) { // 확장 for 문을 이용한 배열 순회
+			tmp.ride();
+		}
+	}
+}

@@ -1,0 +1,25 @@
+package test.main;
+
+import test.mypac.Member;
+
+public class MainClass09 {
+	public static void main(String[] args) {
+		Member m1 = new Member();
+		Member m2 = new Member();
+		Member m3 = new Member();
+		
+		m1.num = 1;
+		m1.name = "김태우";
+		m1.addr = "수내동";
+		
+		m2.num = 2;
+		m2.name = "김구라";
+		m2.addr = "노량진";
+		
+		m3.num = 3;
+		m3.name = "해골";
+		m3.addr = "행신동";
+		
+		System.out.println(m1);
+	}
+}

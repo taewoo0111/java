@@ -1,0 +1,18 @@
+package test.auto;
+
+public class Car {
+	
+	protected Engine engine; // 필드가 protected 이면 상속관계에서는 참조 가능!!!!!
+	
+	public Car(Engine engine) {
+		this.engine = engine;
+	}
+	
+	public void drive() {
+		if (this.engine == null) {
+			System.out.println("Engine 이 없어서 달릴 수가 없어요!");
+			return;
+		}
+		System.out.println("달려요~");
+	}
+}

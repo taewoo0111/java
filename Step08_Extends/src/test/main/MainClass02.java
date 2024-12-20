@@ -1,0 +1,22 @@
+package test.main;
+
+import test.mypac.HandPhone;
+import test.mypac.Phone;
+
+/*
+ *  다형성
+ *  
+ * 	java 에서 객체는 여러 개의 type 을 가질 수 있다.
+ */
+public class MainClass02 {
+	public static void main(String[] args) {
+		
+		// HandPhone 타입 객체를 생성해서 나온 참조값을 HandPhone type 지역변수 p1에 담기
+		HandPhone p1 = new HandPhone();
+		
+		Phone p2 = new HandPhone();
+		
+		Object p3 = new HandPhone(); // p3는 HandPhone이지만 지역변수가 Object 이기 때문에 call()을 사용할 수 없다.
+		
+	}
+}

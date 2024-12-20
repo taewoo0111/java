@@ -1,0 +1,14 @@
+package test.main;
+
+import java.util.Scanner;
+
+public class MainClass03 {
+	public static void main(String[] args) {
+		/*
+		 *  System 클래스의 in 이라는 필드에는 콘솔창으로 부터 입력 받을 수 있는
+		 *  객체의 참조값이 들어 있다.
+		 * 	in 의 type 은 InputStream 이다.
+		 */
+		Scanner scan = new Scanner(System.in);
+	}
+}

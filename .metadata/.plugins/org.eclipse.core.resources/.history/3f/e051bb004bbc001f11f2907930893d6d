@@ -1,0 +1,27 @@
+package test.main;
+
+import java.util.Random;
+
+public class MainClass04 {
+	public static void main(String[] args) {
+		// String type 이 저장되어 있는 배열
+		String[] data = {"cherry", "apple", "bannana", "melon", "7"};
+		
+		// 배열에 저장된 문자열중에 1개가 랜덤하게 콘솔창에 출력되게 하기
+		Random ran = new Random();
+		// 숫자 생성은 0부터!!!!
+		
+		// 1번만 실행!
+		// int num = ran.nextInt(5);
+		// System.out.println(data[num]);
+		
+		// 3번 실행!
+		int[] nums =new int[3];
+		
+		for (int i=0; i<nums.length; i++) {
+			nums[i] = ran.nextInt(5);
+			System.out.printf(data[nums[i]]);
+		}
+		
+	}
+}

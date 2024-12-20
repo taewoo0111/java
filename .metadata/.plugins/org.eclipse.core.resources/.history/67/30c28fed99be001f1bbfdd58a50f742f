@@ -1,0 +1,6 @@
+package test.mypac;
+
+// Generic 클래스는 여러 개 있을 수도 있다.
+public class Pair<K, V> { 
+
+}

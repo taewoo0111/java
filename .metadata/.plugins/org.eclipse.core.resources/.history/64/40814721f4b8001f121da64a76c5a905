@@ -1,0 +1,23 @@
+package test.main;
+/*
+ * 4. 논리 연산자 테스트
+ *  &&, ||, !
+ */
+
+// 4~9줄: class = MainClass04, MainClass04 는 main 이라는 이름의 메소드를 하나 가지고 있다.
+public class MainClass04 {
+	// run 했을 때 실행의 흐름이 시작되는 특별한 main() 메소드
+	public static void main(String[] args) {
+		boolean result1 = false || false; //false
+		boolean result2 = false || true; //true
+		boolean result3 = true || false; //true
+		boolean result4 = true || true;// true
+		
+		boolean result5 = false && false; //false
+		boolean result6 = false && true; //false
+		boolean result7 = true && false; //false
+		boolean result8 = true && true; //true
+		
+		
+	}
+}

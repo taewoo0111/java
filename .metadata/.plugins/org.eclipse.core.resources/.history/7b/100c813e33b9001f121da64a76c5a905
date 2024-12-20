@@ -1,0 +1,16 @@
+package test.mypac;
+
+public class MyUtil2 {
+	public static String My_Name;
+	public int Age;
+	public static int Year;
+	public String Address;
+	public int Height;
+	public int Weight;
+	public static void gender(){
+		System.out.println("남자입니다.");
+	}
+	public void job() {
+		System.out.println("학생입니다.");
+	}
+}

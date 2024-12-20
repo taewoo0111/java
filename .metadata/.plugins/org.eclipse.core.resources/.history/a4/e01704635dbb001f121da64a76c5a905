@@ -1,0 +1,18 @@
+package test.main;
+
+import test.mypac.Product;
+
+public class MainClass11 {
+	public static void main(String[] args) {
+		Product p1 = new Product();
+		p1.setId(1);
+		p1.setName("에어팟");
+		p1.setPrice(20);
+		
+		Product p2 = new Product(2, "아이폰", 100);
+		
+		String info = "아이디:"+p1.getId()+" 이름:"+p1.getName()+" 가격:"+p1.getPrice();
+		String info2 = "아이디:"+p2.getId()+" 이름:"+p2.getName()+" 가격:"+p2.getPrice();
+		
+	}
+}

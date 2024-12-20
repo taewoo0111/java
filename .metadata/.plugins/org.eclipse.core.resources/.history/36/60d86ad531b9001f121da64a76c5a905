@@ -1,0 +1,23 @@
+package test.main;
+
+import test.mypac.MyUtil2;
+
+public class MainClass08_02 {
+	public static void main(String[] args) {
+		MyUtil2 myinfo = new MyUtil2();
+		MyUtil2.My_Name = "김태우";
+		myinfo.Age = 25;
+		MyUtil2.Year = 2000;
+		myinfo.Address = "수내동";
+		myinfo.Height = 175;
+		myinfo.Weight = 58;
+		MyUtil2.gender();
+		myinfo.job();
+		
+		System.out.println(MyUtil2.My_Name);
+		System.out.println(myinfo.Age);
+		System.out.println(MyUtil2.Year);
+		System.out.println(myinfo.Address);
+		System.out.println(myinfo.Height);
+	}
+}
