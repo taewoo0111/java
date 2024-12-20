@@ -19,6 +19,7 @@ public class MainClass03 {
 			}
 		};
 		useRemocon(r1); // 메소드 호출하면서 지역변수 r1에 담겨져있는 Remocon type 의 참조값을 전달
+						// r1 = 인터페이스 타입
 		
 		useRemocon(new Remocon() { // 메소드 호출하면서 즉석에서 Remocon type 참조값을 얻어내서 전달
 			
