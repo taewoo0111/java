@@ -14,10 +14,14 @@ public class MainClass08 {
 		// 미리 생성된 객체의 참조값을 참조해서 전달
 		Phone p1 = new Phone();
 <<<<<<< HEAD
+<<<<<<< HEAD
 		usePhone(p1);
 =======
 		MainClass08.usePhone(p1);
 >>>>>>> 2f983f3 (a)
+=======
+		MainClass08.usePhone(p1);
+>>>>>>> branch 'master' of https://github.com/taewoo0111/java.git
 		
 		usePhone(new AndroidPhone()); // Phone p = new AndroidPhone(); 이 ()안에 들어간 것이다.
 	}

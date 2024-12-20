@@ -4,10 +4,14 @@ package test.auto;
  *  
  *  public : 어디에서나 접근 가능 
 <<<<<<< HEAD
+<<<<<<< HEAD
  *  protected : 동일한 package 혹은 상속관계에서 자식에서 접근 가능 다른 package 는 불가!!!!
 =======
  *  protected : 동일한 package 혹은 상속관계에서 자식에서 접근 가능 
 >>>>>>> 2f983f3 (a)
+=======
+ *  protected : 동일한 package 혹은 상속관계에서 자식에서 접근 가능 
+>>>>>>> branch 'master' of https://github.com/taewoo0111/java.git
  *  default(작성 안한 경우) : 동일한 package 안에서만 접근 가능
  *  private : 동일한 클래스 혹은 동일한 객체 안에서만 접근가능 
  *  

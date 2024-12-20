@@ -20,9 +20,12 @@ public class MainClass04 {
 		MainClass04.useWeapon(w1);
 		
 <<<<<<< HEAD
+<<<<<<< HEAD
 		// 지역 내부 클래스
 =======
 >>>>>>> 2f983f3 (a)
+=======
+>>>>>>> branch 'master' of https://github.com/taewoo0111/java.git
 		class SpaceWeapon extends Weapon{
 			@Override
 			public void attack() {

@@ -17,6 +17,7 @@ public class MainClass03 {
 		// 메소드 안의 클래스는 메소드 안쪽 영역에서만 사용 가능!
 		// 메소드 안에 정의한 클래스 = Local Inner Class
 <<<<<<< HEAD
+<<<<<<< HEAD
 		// Local Inner Class 사용 이유
 		
 		// 1. main 메소드에서 한 번 쓰고 사라지므로 불필요한 전역 변수가 생성되지 않는다.
@@ -28,6 +29,8 @@ public class MainClass03 {
 		// 6. 코드가 간결하고 불필요한 파일을 추가할 필요가 없다.
 =======
 >>>>>>> 2f983f3 (a)
+=======
+>>>>>>> branch 'master' of https://github.com/taewoo0111/java.git
 		class Cat{
 			public void say() {
 				System.out.println("야옹!");

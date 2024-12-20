@@ -13,12 +13,15 @@ public class MainClass05 {
 			
 		}; // {}; 익명 class class ? extends Weapon{}
 <<<<<<< HEAD
+<<<<<<< HEAD
 		// 익명 클래스 사용 이유
 		// 1. 한 번만 사용할 클래스이므로 간단하게 작성 가능
 		// 2. 인터페이스나 추상클래스를 구현하고 한 번만 사용할 때 코드 중복을 줄일 수 있다.
 		// 3. 클래스 정의와 객체 생성을 동시에 가능 = 코드가 한줄로 나와서 간단함
 =======
 >>>>>>> 2f983f3 (a)
+=======
+>>>>>>> branch 'master' of https://github.com/taewoo0111/java.git
 		useWeapon(w1);
 		
 		useWeapon(new Weapon() {
