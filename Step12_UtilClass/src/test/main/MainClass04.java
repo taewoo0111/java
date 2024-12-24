@@ -30,8 +30,8 @@ public class MainClass04 {
 			tmp.drive();
 		}
 		// ArrayList 객체의 forEach() 메소드를 이용해서 모두 호출
-		cars.forEach((tmp)->{
-			tmp.drive();
+		cars.forEach((car)->{
+			car.drive();
 		});
 	}
 }

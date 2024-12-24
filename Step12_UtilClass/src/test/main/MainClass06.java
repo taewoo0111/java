@@ -28,8 +28,6 @@ public class MainClass06 {
 		test("kim", "lee", "park");
 	}
 	// ... test
-	
-	
 	public static void test(String...msgs) {
 		// String... 은 String[] type
 		String[] a = msgs;
