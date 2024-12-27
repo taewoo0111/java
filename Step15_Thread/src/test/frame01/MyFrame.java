@@ -42,6 +42,7 @@ public class MyFrame extends JFrame{
 			// start() 메소드를 호출해서 새로운 스레드가 시작되도록 한다.
 			t.start();
 		});
+		
 	}
 	
 	// run 했을 때 실행의 흐름이 시작되는 메인 메소드

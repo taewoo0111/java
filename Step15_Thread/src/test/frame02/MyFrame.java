@@ -37,7 +37,7 @@ public class MyFrame extends JFrame{
 		});
 		
 		startBtn2.addActionListener((e) -> {
-			Thread t = new Thread(new WorkRunnable());
+			Thread t = new Thread(new WorkRunnable()); // Thread 생성자 중에 Runnable 객체를 매개변수로 받는 생성자가 있다.! 
 			t.start();
 		});
 	}
