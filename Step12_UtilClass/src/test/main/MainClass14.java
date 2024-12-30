@@ -36,5 +36,10 @@ public class MainClass14 {
 			String info = String.format("글번호:%d 작성자:%s 제목:%s", tmp.getNum(), tmp.getName(), tmp.getHead());
 			System.out.println(info);
 		}
+		
+		dto1.forEach((dto)->{
+			String info = String.format("글번호:%d 작성자:%s 제목:%s", dto.getNum(), dto.getName(), dto.getHead());
+			System.out.println(info);
+		});
 	}
 }

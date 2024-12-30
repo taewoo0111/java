@@ -39,5 +39,10 @@ public class MainClass09 {
 			String info =String.format("번호:%d 이름:%s 주소:%s", tmp.get("num"), tmp.get("name"), tmp.get("addr"));
 			System.out.println(info);
 		}
+		System.out.println();
+		list.forEach((item)->{
+			String info =String.format("번호:%d 이름:%s 주소:%s", item.get("num"), item.get("name"), item.get("addr"));
+			System.out.println(info);
+		});
 	}
 }

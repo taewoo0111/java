@@ -21,6 +21,10 @@ public class MainClass06 {
 			String info = String.format("번호:%d 이름:%s 주소:%s", tmp.getNum(), tmp.getName(), tmp.getAddr());
 			System.out.println(info);
 		}
+		members.forEach((member)->{
+			String info = String.format("번호:%d 이름:%s 주소:%s", member.getNum(), member.getName(), member.getAddr());
+			System.out.println(info);
+		});
 		
 		// test 메소드 호출(매개 변수에 전달할 String type 의 개수는 유동적이다.)
 		test();

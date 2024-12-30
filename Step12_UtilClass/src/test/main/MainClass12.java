@@ -2,6 +2,7 @@ package test.main;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.function.Consumer;
 
 public class MainClass12 {	
 	public static void main(String[] args) {

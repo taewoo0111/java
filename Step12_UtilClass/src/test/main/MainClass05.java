@@ -21,5 +21,9 @@ public class MainClass05 {
 			String info = String.format("번호:%d 이름:%s 주소:%s", tmp.num, tmp.name, tmp.addr);
 			System.out.println(info);
 		}
+		members.forEach((member)->{
+			String info = String.format("번호:%d 이름:%s 주소:%s", member.num, member.name, member.addr);
+			System.out.println(info);
+		});
 	}
 }
