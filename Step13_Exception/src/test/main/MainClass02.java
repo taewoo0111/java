@@ -13,7 +13,7 @@ public class MainClass02 {
 		
 		try {
 			// 문자열 형태의 숫자를 실제 정수로 변경하기
-			int num1 = Integer.parseInt(inputNum1);
+			int num1 = Integer.valueOf(inputNum1);
 			int num2 = Integer.parseInt(inputNum2);
 			
 			// 계산하기
